@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+
+:root {
+	--amber: #e8a020;
+	--amber-dim: #a06010;
+	--amber-bright: #ffcc44;
+	--bg: #0a0800;
+	--bg2: #110e00;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--bg);
+	color: var(--amber);
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 15px;
+	line-height: 1.7;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+body::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	background: repeating-linear-gradient(
+		0deg,
+		rgba(0,0,0,0.15) 0px,
+		rgba(0,0,0,0.15) 1px,
+		transparent 1px,
+		transparent 3px
+	);
+	pointer-events: none;
+	z-index: 100;
+	opacity: 0.4;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
