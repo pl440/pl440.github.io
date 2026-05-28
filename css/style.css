@@ -186,6 +186,10 @@ section {
   gap: 1.5rem;
 }
 
+.about-block p {
+  word-break: break-word;
+}
+
 .project-card {
   background: var(--bg2);
   border: 1px solid var(--amber-dim);
