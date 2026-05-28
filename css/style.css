@@ -179,7 +179,8 @@ section {
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+}
+ 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -269,3 +270,4 @@ section {
   gap: 1rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid rg
+}
