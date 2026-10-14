@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pablo Luna · Sistemas y ciberseguridad</title>
+	<meta name="description" content="Portfolio de Pablo Luna, estudiante de ASIR interesado en administración de sistemas, redes y ciberseguridad ofensiva.">
+	<meta name="color-scheme" content="dark">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500&display=swap">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<a class="skip" href="#contenido">Saltar al contenido</a>
+
+	<div class="layout">
+		<header class="side">
+			<h1>Pablo Luna</h1>
+			<p class="role">Administración de sistemas, redes y ciberseguridad</p>
+			<p class="status">Busco centro de prácticas</p>
+			<nav aria-label="Principal">
+				<ul>
+					<li><a href="#sobre-mi">Sobre mí</a></li>
+					<li><a href="#proyectos">Proyectos</a></li>
+					<li><a href="#competencias">Competencias</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+			<p class="where">Algeciras, España</p>
+		</header>
+
+		<main id="contenido">
+			<section class="about" id="sobre-mi">
+				<p class="lead">Estudio administración de sistemas y me formo en redes y pentesting.</p>
+				<p>
+					Estoy en el segundo año del ciclo superior de Administración de Sistemas Informáticos en Red,
+					con especial interés en servidores Linux, redes y seguridad.
+				</p>
+				<p>
+					Fuera de clase practico con laboratorios propios y con HackTheBox.
+					Mi objetivo es dedicarme al pentesting y, de momento, busco un centro de prácticas
+					donde aplicar lo aprendido y seguir creciendo.
+				</p>
+			</section>
+
+			<section id="proyectos">
+				<h2>Proyectos</h2>
+
+				<h3>Proyectos personales</h3>
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Proyecto</th>
+							<th scope="col">Entorno</th>
+							<th scope="col">Estado</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>HackTheBox</strong><span class="desc">Más de 20 máquinas resueltas: enumeración, explotación de vulnerabilidades conocidas y escalada de privilegios.</span></td>
+							<td class="env" data-label="Entorno">Linux, Windows, Active Directory</td>
+							<td class="state" data-label="Estado">En curso</td>
+						</tr>
+						<tr>
+							<td><strong>Laboratorio de pentesting</strong><span class="desc">Máquina virtual Kali Linux con entorno personalizado y copias de seguridad de la propia VM.</span></td>
+							<td class="env" data-label="Entorno">Kali Linux, KVM/QEMU, Fedora</td>
+							<td class="state" data-label="Estado">En uso</td>
+						</tr>
+						<tr>
+							<td><strong>NAS doméstico</strong><span class="desc">Almacenamiento en casa, galería de fotos propia y acceso remoto seguro.</span></td>
+							<td class="env" data-label="Entorno">Orange Pi 3B, Armbian, OpenMediaVault, Immich, Tailscale</td>
+							<td class="state" data-label="Estado">Montado</td>
+						</tr>
+						<tr>
+							<td><strong>Web para un asesor deportivo</strong><span class="desc">Sitio de varias páginas con identidad de marca propia, desarrollado en local.</span></td>
+							<td class="env" data-label="Entorno">WordPress, Docker Compose</td>
+							<td class="state" data-label="Estado">En desarrollo</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3>Trabajos del ciclo ASIR</h3>
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Trabajo</th>
+							<th scope="col">Módulo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>WordPress</strong><span class="desc">Academia de música ficticia con tema Astra, plugin Spectra y migración completa.</span></td>
+							<td class="module" data-label="Módulo">Implantación de aplicaciones web</td>
+						</tr>
+						<tr>
+							<td><strong>Dolibarr ERP</strong><span class="desc">Instalación y configuración de un ERP-CRM sobre XAMPP, con copia de seguridad mediante mysqldump.</span></td>
+							<td class="module" data-label="Módulo">Lenguaje de marcas</td>
+						</tr>
+						<tr>
+							<td><strong>Reservas en PHP</strong><span class="desc">Sistema de reservas de restaurante en PHP con base de datos MySQL.</span></td>
+							<td class="module" data-label="Módulo">Implantación de aplicaciones web</td>
+						</tr>
+						<tr>
+							<td><strong>XML y XSLT</strong><span class="desc">Transformaciones XML con hojas de estilo XSLT y validación con DTD y XSD.</span></td>
+							<td class="module" data-label="Módulo">Lenguaje de marcas</td>
+						</tr>
+						<tr>
+							<td><strong>Subnetting</strong><span class="desc">Ejercicios de direccionamiento IP, clases y tablas de enrutamiento estático.</span></td>
+							<td class="module" data-label="Módulo">Redes</td>
+						</tr>
+						<tr>
+							<td><strong>Delta Musical</strong><span class="desc">Plan de digitalización para una tienda de música ficticia en Algeciras.</span></td>
+							<td class="module" data-label="Módulo">Proyecto</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="competencias">
+				<h2>Competencias</h2>
+				<dl class="skills">
+					<div>
+						<dt>Sistemas</dt>
+						<dd>Linux (Fedora, Arch, Debian), virtualización con KVM/QEMU, Docker y Docker Compose, Bash y Git.</dd>
+					</div>
+					<div>
+						<dt>Redes y seguridad</dt>
+						<dd>TCP/IP y subnetting, enumeración y explotación, escalada de privilegios.</dd>
+					</div>
+					<div>
+						<dt>Web y datos</dt>
+						<dd>WordPress, Apache, PHP y MySQL, HTML, CSS y XML/XSLT, Dolibarr ERP.</dd>
+					</div>
+				</dl>
+			</section>
+
+			<section class="contact" id="contacto">
+				<h2>Contacto</h2>
+				<p>Si buscas a alguien para unas prácticas en sistemas, redes o seguridad, escríbeme.</p>
+				<a class="contact-mail" href="mailto:pabloluna44@gmail.com">pabloluna44@gmail.com</a>
+				<ul>
+					<li><a href="https://github.com/pl440" target="_blank" rel="noopener">github.com/pl440</a></li>
+				</ul>
+			</section>
+		</main>
+	</div>
+
+	<script>
+		(function () {
+			var links = document.querySelectorAll('.side nav a');
+			var sections = [];
+			links.forEach(function (a) {
+				var s = document.querySelector(a.getAttribute('href'));
+				if (s) sections.push({ link: a, el: s });
+			});
+			if (!('IntersectionObserver' in window) || !sections.length) return;
+			var io = new IntersectionObserver(function (entries) {
+				entries.forEach(function (e) {
+					if (!e.isIntersecting) return;
+					sections.forEach(function (s) {
+						if (s.el === e.target) s.link.setAttribute('aria-current', 'true');
+						else s.link.removeAttribute('aria-current');
+					});
+				});
+			}, { rootMargin: '-30% 0px -60% 0px' });
+			sections.forEach(function (s) { io.observe(s.el); });
+		})();
+	</script>
+</body>
+</html>
